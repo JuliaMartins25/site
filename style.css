@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body {
+background-color: rgb(92, 4, 4);
+}
+
+.menu-horizontal{
+    background-color: rgb(255, 255, 180);
+    overflow: hidden;
+}
+
+.menu-horizontal ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+}
+
+
+.menu-horizontal a {
+    display: block;
+    color: darkred;
+    padding: 14px 20px;
+    text-decoration: red;
+    transition: back-color 0.3;
+}
+
+.menu-horizontal a:houver {
+    background-color: black;
+}
+
+.titulo{
+    background-color: rgb(0, 0, 0);
+    font-weight: 700;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+}
+
+.paragrafo{
+    text-align: center;
+    color: beige;
+}
+
+.img{
+    text-align: center;
+}
+
+.formulario{
+    color: rgb(233, 213, 122);
+}
+
+.contato{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+}
+
+.img3{
+    text-align: center;
+}
+
+.form{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    background: red;
+    border: 1px solid white;
+    border-radius: 5px;   
+}
+
+form label { display: block; 
+    margin: 10px 0 5px; 
+} 
+form input[type="text"], 
+form input[type="email"], 
+
+form textarea { 
+    width: 95%; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+    border: 1px solid #0a0404; 
+    border-radius: 10px; 
+} 
+form input[type="submit"] {
+     background-color: #0a0404; 
+     color: #fff; 
+     padding: 10px 20px; 
+     border: none; 
+     border-radius: 5px; 
+     cursor: pointer; 
+} 
+    form input[type="submit"]:hover {
+     background-color: #269c3a; 
+
+    }
+
+.sobre{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+}
+
+.sobreeu{
+    text-align: center;
+    color: beige;
+}
+
+
+.insta{
+    text-align: center;
+}
+
+ul li a:hover{
+    color: #000;
+
+}
+
+.sobremim{
+ 
+    color: beige;
+    width: 300px;
+}
